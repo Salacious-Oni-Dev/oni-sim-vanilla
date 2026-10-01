@@ -1,0 +1,18 @@
+# Build output
+sim/build/
+driver/build/
+shim/build/
+
+# Generated from the local game install by tools/gen_sim_abi.py
+abi/sim_abi.h
+
+# Crash dumps written by a simulation library
+SimDLL_CRASH_*.dmp
+crashdumps/
+
+# Marker files that enable optional diagnostics in the DLL
+sim_digest.on
+sim_nothread.on
+
+__pycache__/
+*.pyc

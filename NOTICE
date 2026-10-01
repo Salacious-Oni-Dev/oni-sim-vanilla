@@ -1,0 +1,15 @@
+oni-sim-vanilla
+Copyright (c) 2026 Salacious
+
+Licensed under the Mozilla Public License 2.0; see LICENSE.
+
+Oxygen Not Included is developed and published by Klei Entertainment. This project is
+not affiliated with or endorsed by Klei Entertainment.
+
+This repository contains no file of the game: no Klei source code, game binaries, game
+assets or game data. Building it needs an installed copy of the game. The build reads
+the layouts of the game's simulation messages from the installed Assembly-CSharp.dll
+(.NET metadata only) and writes them to abi/sim_abi.h, which is not part of this
+repository or of any release.
+
+No third-party source code is included.
